@@ -1,12 +1,12 @@
 User interface locally
 
-	http://localhost:8080/jakartaee8-starter/index.xhtml
+	http://localhost:8080/jakartaee8-migration/index.xhtml
 
 REST-controller end points locally
 
-	http://localhost:8080/jakartaee8-starter/api/user-controller/users
+	http://localhost:8080/jakartaee8-migration/api/user-controller/users
 
-	http://localhost:8080/jakartaee8-starter/api/user-controller/user/11
+	http://localhost:8080/jakartaee8-migration/api/user-controller/user/11
 
 Running Arquillian tests
 
