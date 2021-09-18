@@ -46,10 +46,7 @@ public abstract class AbstractWrapperService {
 	}
 
 	private boolean runJakarta(boolean runSpring) throws IOException {
-		if (!runSpring) {
-			return true;
-		}
-		return getBooleanProperty("userService.runJakartaEE");
+		return runSpring ? getBooleanProperty("userService.runJakartaEE") : true;
 	}
 
 	private boolean runSpring() throws IOException {
